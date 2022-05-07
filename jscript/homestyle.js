@@ -1,4 +1,15 @@
+
+//document.getElementById("menuitem").onclick=hideCont();
+
 function hideCont()
 {
-	document.getElementById("menuitem").classList.toggle("show");
+	var menu=document.getElementById('menuitem');
+
+	if(menu.style.display==="none")
+	{
+		x.style.display="block";
+	}else
+	{
+		x.style.display="none";
+	}
 }

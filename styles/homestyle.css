@@ -7,17 +7,26 @@
 ul li
 {
 	text-decoration: none;
+	list-style: none;
+}
+
+ul li a
+{
+	text-decoration: none;
 }
 
 .menu
 {
 	position: relative;
 	display: inline-block;
+	width: 20%;
+
 }
 
 #menuitem
 {
 	position: absolute;
+	padding: 8px 8px 8px 8px;
 }
 
 .menuitem a
@@ -26,26 +35,65 @@ ul li
 	min-width: 180px;
 }
 
+.topbar
+{
+	border-style: solid;
+	border-width: thin;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
-
-/*.searchbar
+.searchbar
 {
 	float: left;
+	padding-left: 20px;
 	width: 20%;
 }
 
 .logo
 {
 	float: left;
+	padding-right: 20px;
 	width: 20%;
 }
 
 .dashboard
 {
 	float: left;
+	width: 20%;
 }
 
 .gotocart
 {
 	float: left;
-}*/
+	width: 20%;
+}
+
+.socialmedia
+{
+	display: block;
+	float: right;
+	border-style: solid;
+	border-width: thin;
+	height: 400px;
+}
+
+.socialmedia ul li
+{
+	display: block;
+	padding: 20px 20px 50px 0px;
+}
+
+.footerlink
+{
+	position: fixed;
+	bottom: 0;
+	width: 60%;
+}
+
+.footerlink ul li
+{
+	display: inline-block;
+	width: 20%;
+	align-self: center;
+}
