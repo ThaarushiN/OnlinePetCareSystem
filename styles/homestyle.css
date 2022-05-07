@@ -1,0 +1,51 @@
+.topbar
+{
+
+}
+
+
+ul li
+{
+	text-decoration: none;
+}
+
+.menu
+{
+	position: relative;
+	display: inline-block;
+}
+
+#menuitem
+{
+	position: absolute;
+}
+
+.menuitem a
+{
+	text-decoration: none;
+	min-width: 180px;
+}
+
+
+
+/*.searchbar
+{
+	float: left;
+	width: 20%;
+}
+
+.logo
+{
+	float: left;
+	width: 20%;
+}
+
+.dashboard
+{
+	float: left;
+}
+
+.gotocart
+{
+	float: left;
+}*/
