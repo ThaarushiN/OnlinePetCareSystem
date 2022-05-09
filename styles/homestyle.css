@@ -4,16 +4,33 @@
     box-sizing: border-box;
 }
 
+body
+{
+	background-color: 	#f7daec;
+}
+
+a:link 
+{
+	color: #A50062;
+}
+
+a:visited
+{
+	color: #D62900;
+}
+
 i
 {
 	color: #A50062;
-	border: none;
+	/*border-style: none;*/
+	height: 5px;
 }
 
 div{
 	/*border-style: solid;*/
 	align-items: center;
 	justify-content: center;
+	border-radius: 10px;
 }
 
 
@@ -28,42 +45,88 @@ ul li a
 	text-decoration: none;
 }
 
+.topbar
+{
+	border-style: solid;
+	border-width: medium	;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	color: #FFA07A;
+	background-color: 	#FFFFFF;
+}
+
+.menu, .searchbar, .logo, .dashboard, .gotocart
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .menu
 {
 	position: relative;
-	display: block;
 	width: 20%;
 	float: left;
 }
 
+.menu form, button
+{
+	display: inline-block;
+}
+
+
 #menuitem
 {
+	height: 150px;
+	float: left;
 	position: absolute;
 	padding: 8px 8px 8px 8px;
 	/*visibility: hidden;*/
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: thin;
+	color: #FFA07A;
+	margin-top:180px ;
+}
+
+#menuitem a 
+{
+	text-decoration: none;
+	padding: 8px 16px;
+	margin-top: 	5px;
+	display: 	block	;
+}
+
+#menuitem a:hover
+{
 	background-color: #FF9B55;
 }
 
-.menuitem a
-{
-	text-decoration: none;
-	min-width: 100px;
-}
-
-.topbar
-{
-	border-style: solid;
-	border-width: thin;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	width: 100%;
-}
 
 .searchbar
 {
 	float: left;
 	/*padding-left: 20px;*/
 	width: 20%;
+}
+
+::placeholder { 
+  color: #D62900;
+  opacity: 1; 
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #D62900;
+}
+
+#searchbar
+{
+	border: solid	#A50062;
+	border-width: thin;	
+	border-radius: 3px;
+	height: 	19px;
+	background-color: 	#FF9B55;
 }
 
 .logo
@@ -90,29 +153,38 @@ ul li a
 {
 	display: block;
 	float: right;
-	border-style: solid;
-	border-width: thin;
+	border-style: none;
 	height: 400px;
-	background-color: #FF9B55;
+	background-color: #FF9B55 /*#FFA07A*/;
 }
 
 .socialmedia ul li
 {
 	display: block;
-	padding: 20px 20px 50px 20px;
+	padding: 50px 20px 20px 20px;
 }
 
 .footerlink
 {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 10%;
+	color: #FFA07A;
+	border-style: solid;
+	border-width: medium	;
+	background-color: 	#FFFFFF;
+}
+
+.footerlink ul
+{
+	margin-left: 23%;
 }
 
 .footerlink ul li
 {
 	display: inline-block;
-	width: 20%;
-	align-self: center;
+	width: 30%;
+	padding: 2% 0;
+	font-size: 	20px;
 }
