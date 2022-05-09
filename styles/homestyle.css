@@ -1,6 +1,19 @@
-.topbar
-{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+i
+{
+	color: #A50062;
+	border: none;
+}
+
+div{
+	/*border-style: solid;*/
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -18,21 +31,23 @@ ul li a
 .menu
 {
 	position: relative;
-	display: inline-block;
+	display: block;
 	width: 20%;
-
+	float: left;
 }
 
 #menuitem
 {
 	position: absolute;
 	padding: 8px 8px 8px 8px;
+	/*visibility: hidden;*/
+	background-color: #FF9B55;
 }
 
 .menuitem a
 {
 	text-decoration: none;
-	min-width: 180px;
+	min-width: 100px;
 }
 
 .topbar
@@ -41,19 +56,20 @@ ul li a
 	border-width: thin;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	width: 100%;
 }
 
 .searchbar
 {
 	float: left;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	width: 20%;
 }
 
 .logo
 {
 	float: left;
-	padding-right: 20px;
+	/*padding-right: 20px;*/
 	width: 20%;
 }
 
@@ -65,8 +81,9 @@ ul li a
 
 .gotocart
 {
-	float: left;
+	float: right;
 	width: 20%;
+	position: relative;
 }
 
 .socialmedia
@@ -76,19 +93,21 @@ ul li a
 	border-style: solid;
 	border-width: thin;
 	height: 400px;
+	background-color: #FF9B55;
 }
 
 .socialmedia ul li
 {
 	display: block;
-	padding: 20px 20px 50px 0px;
+	padding: 20px 20px 50px 20px;
 }
 
 .footerlink
 {
 	position: fixed;
 	bottom: 0;
-	width: 60%;
+	width: 100%;
+	height: 10%;
 }
 
 .footerlink ul li

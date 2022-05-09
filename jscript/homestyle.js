@@ -1,15 +1,12 @@
-
-//document.getElementById("menuitem").onclick=hideCont();
-
 function hideCont()
 {
-	var menu=document.getElementById('menuitem');
+	var vision=document.getElementById('menuitem');
 
-	if(menu.style.display==="none")
+	if(vision.style.visibility==="hidden")
 	{
-		x.style.display="block";
+		vision.style.visibility="visible";
 	}else
 	{
-		x.style.display="none";
+		vision.style.visibility="hidden";
 	}
 }
