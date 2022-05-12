@@ -6,8 +6,9 @@
 
 body
 {
-	background-color: 	#FFDAC1 /*#f7daec*/;
-	/*height: 1000px;*/
+	background-color: 	 #FAC898 /*#FF998C*/ /*#FFDAC1*/ /*#f7daec*/;
+	height: 1000px;
+	font-family: 'Patrick Hand', cursive;
 }
 
 a:link 
@@ -163,6 +164,16 @@ ul li a
 	position: relative;
 }
 
+.content .banner
+{
+	border-style: solid;
+}
+
+.content .banner img
+{
+	
+}
+
 .socialmedia
 {
 	display: block;
@@ -178,18 +189,20 @@ ul li a
 	padding: 50px 20px 20px 20px;
 }
 
+
+
 .footerlink
 {
 
 	height: 211px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	color: #FFA07A;
 	border-style: solid;
 	border-width: medium	;
 	background-color: 	#FFFFFF;
-	vertical-align: bottom;
+	
 }
 
 .footerlink .logo
@@ -204,6 +217,7 @@ ul li a
 	padding: 20px 20px 20px 20px;
 	margin-left: 20px;
 	margin-top: 20px;
+	margin-right: 	60px;
 }
 
 .footerlink .logo:hover
@@ -229,6 +243,25 @@ ul li a
 {
 
 }*/
+
+.service
+{
+	vertical-align: middle;
+	width: 25%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 28px;
+}
+
+.service	h3,ul
+{
+	color: 	#A50026;
+}
+
+/*.service	ul*/
+
 
 .quicklink
 {
@@ -272,7 +305,7 @@ ul li a
 
 .quicklink ul li:hover
 {
-	background-color: #FF9AA2 ;
+	background-color: #ff7561 /*#FF9AA2*/ ;
 	transform: scale(1.1);
 	transition: all .2s ease-in-out;
 }
