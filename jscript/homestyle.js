@@ -10,3 +10,5 @@ function hideCont()
 		vision.style.visibility="hidden";
 	}
 }
+
+
