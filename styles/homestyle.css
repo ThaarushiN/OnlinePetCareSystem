@@ -50,7 +50,11 @@ ul li a
 	text-decoration: none;
 }
 
-
+.menu , .searchbar button
+{
+	border: none;
+	height: 5px;
+}
 
 
 

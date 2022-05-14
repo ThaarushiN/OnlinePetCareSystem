@@ -96,6 +96,11 @@ button
 	float: left;
 }
 
+/*.menu button
+{
+	transform: translate(0px 4px);
+}*/
+
 .menu form, button
 {
 	display: inline-block;

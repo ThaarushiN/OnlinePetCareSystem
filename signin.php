@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sign Up</title>
+	<title>Sign In</title>
 	<link rel="stylesheet" type="text/css" href="styles/signin.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,8 +33,9 @@
 
 							<button type="submit	" class="signbtn">Sign In</button>
 							<button type="	reset" class="signbtn">Clear All</button>
-							<br><p>Forgot your password? Don't worry you can reset it<a href="#"> here!</a>
+							<br><p>Forgot your password? Don't worry you can reset it<a href="#" class="changepw"> here!</a>
 							</p>
+							<p>Don't have an accout? That's fine too. Create one <a href="#">here!</a></p>
 						</form>
 				</fieldset>
 			</div>
@@ -45,7 +46,7 @@
 			<?php
 			include('footer.html');
 			?>
-			
+
 		</div>
 
 	</div><!-- wrappper -->
