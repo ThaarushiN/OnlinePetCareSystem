@@ -49,7 +49,11 @@ ul li a
 	text-decoration: none;
 }
 
-
+button
+{
+	border: none;
+	height: 5px;
+}
 
 
 
@@ -168,6 +172,7 @@ ul li a
 {
 	transform: translate(0px -30px);
 }
+
 
 .dashboard
 {
