@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body
+{
+	background-color: 	 #FAC898 /*#FF998C*/ /*#FFDAC1*/ /*#f7daec*/;
+	height: 1000px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+a:link 
+{
+	color: #A50062;
+	border-radius: 10px;
+}
+
+a:visited
+{
+	color: #D62900;
+}
+
+i
+{
+	color: #A50062;
+	/*border-style: none;*/
+	height: 5px;
+}
+
+div{
+	/*border-style: solid;*/
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+
+ul li
+{
+	text-decoration: none;
+	list-style: none;
+}
+
+ul li a
+{
+	text-decoration: none;
+}
+
+
+.logo img
+{
+	width: 90%;
+}
+
+
+.footerlink
+{
+
+	height: 211px;
+	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	width: 100%;
+	color: #FFA07A;
+	border-style: solid;
+	border-width: medium	;
+	background-color: 	#FFFFFF;
+}
+
+.wrapper
+{
+	min-height:100%;
+  position:relative;
+}
+
+
+
+.footerlink .logo
+{
+	height: 80%;
+	float: left;
+	border: none;
+	display: block;
+	padding: 20px 20px 20px 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 	60px;
+}
+
+.footerlink .logo img
+{
+	width: 60%;
+	margin-top: 0;
+}
+
+.footerlink .logo a 
+{
+	display: block;
+	text-decoration: none;
+}
+
+.service
+{
+	vertical-align: middle;
+	width: 25%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 28px;
+}
+
+.service	h3,ul
+{
+	color: 	#A50026;
+}
+
+/*.service	ul*/
+
+
+.quicklink
+{
+	float: right;
+	text-align: center;
+	border-style: none;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-top: 25px;
+	vertical-align: middle;
+	width: 400px;
+}
+
+.quicklink ul
+{
+	width: 400px;
+	/*border-style: solid;*/
+	/*transform: translate(-20px, -6px);*/
+}
+
+.quicklink ul li 
+{
+	width: 173px;
+	height: 45px;
+	text-align: center;
+	float: left;
+	transform: translate(3px, 12px);
+	background-color: #FFB7B2;
+	border-radius: 8px;
+	padding-top: 10px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+
+.quicklink ul li a 
+{
+	display: block;
+	width: 100%;
+  height: 100%;
+}
+
+.quicklink ul li:hover
+{
+	background-color: #ff7561 /*#FF9AA2*/ ;
+	transform: scale(1.1);
+	transition: all .2s ease-in-out;
+}
+
+.quicklink ul li a:link
+{
+	color: #A50062;
+}
+

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+	background-color: 	 #FAC898 /*#FF998C*/ /*#FFDAC1*/ /*#f7daec*/;
+	height: 1000px;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 28px;
+}
+
+div{
+	/*border-style: solid;*/
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+fieldset
+{
+	border: 	solid	;
+	border-color: 	#A50062;
+	border-radius: 10px;
+	height: 600px;
+	width: 100%;
+}
+
+.login
+{
+	height: 600px;
+	width: 60%;
+}
+
+
+
+
+
+.wrapper
+{
+	position: relative;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 	100%;
+}
+

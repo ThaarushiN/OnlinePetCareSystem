@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body
+{
+	background-color: 	 #FAC898 /*#FF998C*/ /*#FFDAC1*/ /*#f7daec*/;
+	font-family: 'Patrick Hand', cursive;
+}
+
+a:link 
+{
+	color: #A50062;
+	border-radius: 10px;
+}
+
+a:visited
+{
+	color: #D62900;
+}
+
+i
+{
+	color: #A50062;
+	/*border-style: none;*/
+	height: 5px;
+}
+
+div{
+	/*border-style: solid;*/
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+
+ul li
+{
+	text-decoration: none;
+	list-style: none;
+}
+
+ul li a
+{
+	text-decoration: none;
+}
+
+
+
+
+
+.wrapper
+{
+	min-height:100%;
+  position:relative;
+}
+
+
+
+
+
+.topbar
+{
+	border-style: solid;
+	border-width: medium	;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	height: 100px;
+	color: #FFA07A;
+	background-color: 	#FFFFFF;
+}
+
+.menu, .searchbar, .logo, .dashboard, .gotocart
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*height: 50px;*/
+	/*border: solid;
+	border-width: thin;*/
+}
+
+.menu
+{
+	position: relative;
+	width: 20%;
+	float: left;
+}
+
+.menu form, button
+{
+	display: inline-block;
+}
+
+
+#menuitem
+{
+	height: 200px;
+	float: left;
+	position: absolute;
+	padding: 8px 8px 8px 8px;
+	/*visibility: hidden;*/
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: thin;
+	color: #FFA07A;
+	margin-top:250px ;
+}
+
+#menuitem a 
+{
+	text-decoration: none;
+	padding: 8px 16px;
+	margin-top: 	5px;
+	display: 	block	;
+}
+
+#menuitem a:hover
+{
+	background-color: #FF9B55;
+}
+
+
+.searchbar
+{
+	float: left;
+	/*padding-left: 20px;*/
+	width: 20%;
+}
+
+::placeholder { 
+  color: #D62900;
+  opacity: 1; 
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #D62900;
+}
+
+#searchbar
+{
+	border: solid	#A50062;
+	border-width: thin;	
+	border-radius: 3px;
+	height: 	23px;
+	background-color: 	#FF9B55;
+}
+
+.logo
+{
+	float: left;
+	/*padding-right: 20px;*/
+	width: 20%;
+	height: 100%;
+}
+
+.logo img
+{
+	width: 90%;
+}
+
+.topbar .logo img
+{
+	transform: translate(0px -30px);
+}
+
+.dashboard
+{
+	float: left;
+	width: 20%;
+}
+
+.gotocart
+{
+	float: right;
+	width: 20%;
+	position: relative;
+}
