@@ -1,22 +1,23 @@
-function hideForm() {
-	
-	if(document.getElementById('paymethod').checked) {   
-	       var valueRadio = document.getElementById('paymethod').value;  
-	       
-	       if(valueRadio==='Cash On Delivery')
-	       {
-	       	 document.getElementByClass('cod').style.visibility='visible';
-	       }
-	       else if (valueRadio==='Credit/Debit Card') 
-	       {
-	       	 document.getElementByClass('card').style.visibility='visible';
-	       }
-	}  
+function callForm() {
+  var formVisiblity1 = document.getElementsByClassName('when'); //cash on delivery
+  var formVisiblity2 = document.getElementsByClassName('paycard'); //card payments
+
+  if (document.getElementsByClassName('cod').clicked == true && formVisiblity1.style.visibility === 'hidden') {
+    formVisiblity1.style.visibility = 'visible';
+  } else if (document.getElementsByClassName('cod').clicked == true && formVisiblity1.style.visibility === 'visible') {
+    formVisiblity1.style.visibility = 'hidden';
+  } else if (document.getElementsByClassName('card').clicked == true && formVisiblity2.style.visibility === 'visible') {
+    formVisiblity2.style.visibility = 'visible';
+  } else if (document.getElementsByClassName('card').clicked == true && formVisiblity2.style.visibility === 'visible') {
+    formVisiblity2.style.visibility = 'hidden';
+  } else {
+    formVisiblity1.style.visibility = 'hidden';
+    formVisiblity1.style.visibility = 'hidden';
+  }
 
 }
 
-function callForm()
-{
-	if(document.querySelector('input[name="paymethod"]:checked'))
-	hideForm();
-}
+document.addEventListener('DOMContentLoaded', function(){
+  document.querySelector('.cod').onclick=callForm;
+  document.querySelector('.card').onclick=callForm;
+});

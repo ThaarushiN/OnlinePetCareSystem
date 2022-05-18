@@ -18,6 +18,11 @@ div{
 	border-radius: 10px;
 }
 
+button
+{
+	padding: 5px;
+}
+
 .wrapper
 {
 	position: relative;
@@ -40,11 +45,6 @@ fieldset
 	justify-content: center;
 }
 
-.cod, .card
-{
-	display: none;
-}
-
 button
 {
 	height: 10px;
@@ -52,3 +52,4 @@ button
 	background-color: #FFFFFF;
 	border-radius: 5px;
 }
+
