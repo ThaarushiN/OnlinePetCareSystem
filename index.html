@@ -10,14 +10,44 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 	<script src="jscript/header.js"></script>
+	<script src="jscript/homescript.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 
 
-		<?php
-			include('header.html');
-		
+		<div class="topbar">
+			<div class="menu">
+				<button class="verticalmenu" onclick="hideCont()" name="menubtn">
+					<i class="fa fa-bars fa-lg"></i>
+				</button>
+				<div id="menuitem" style="visibility: hidden;" >
+					<a href="#">Search by Pet</a>
+					<a href="#">Vet Channeling & Pet Sitting</a>
+					<a href="#">Pet Advice</a>
+					<a href="#">Shop</a>
+				</div>
+			</div><!- menu -->
+
+			<div class="searchbar">
+				<form method="get" action="">
+					<input type="text" name="searchbox" placeholder="	Search..." id="searchbar">
+					<button type="submit" name=btnsearch><i class="fa fa-search fa-lg	"></i></button>
+				</form>
+			</div><!-- searchbar --> 
+
+			<div class="logo">
+				<img src="img/logo2.png">
+			</div>
+			<div class="dashboard">
+				<a href="#"><i class="fa fa-user-o fa-lg	"></i></a>
+			</div> 
+
+			<div class="gotocart">
+				<a href=""><i class="fa fa-shopping-cart fa-lg	"></i></a>
+			</div> 
+		</div><!-- topbar -->	
+
 
 		<div class="socialmedia">
 			<ul>
@@ -34,25 +64,42 @@
 			<div class="banner">
 				<img src="img/salebanner.jpg">
 			</div>
+
+			<div class="prodlink">
+				<h3>Find stuff you absolutely love for the furbaby you certainly love!!!</h3>
+				<table>
+					<tr>
+						<td><a href="#"><img src="img/catmilk.jpg" class="circle"><br>Pet Food</a></td>
+						<td><a href="#"><img src="img/cattshirt.jpg" class="circle"><br>Pet Clothes</a></td>
+						<td><a href="#"><img src="img/dogtoy.jpg" class="circle"><br>Pet Toys</a></td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="img/pedmed.jpg" class="circle"><br>Medication</a></td>
+						<td><a href="#"><img src="img/cathouse.jpg" class="circle"><br>Pet Furniture</a></td>
+						<td><a href="#"><img src="img/souve.jpg" class="circle"><br>Gift Items</a></td>
+					</tr>
+
+				</table>
+			</div>
+
 			<div class="carousel">
+				<h3>All Time Favourites!!</h3>
 				<div class="prod">
+					<img src="img/fishfeed.jpg" id="last">
 					<img src="img/catmilk.jpg">
-				</div>
-				<div class="prod">
 					<img src="img/dogbed.jpg">
-				</div>
-				<div class="prod">
 					<img src="img/hamsterwheel.jpg">
-				</div>
-				<div class="prod">
 					<img src="img/catchewtoy.jpg">
-				</div>
-				<div class="prod">
 					<img src="img/fishfeed.jpg">
+					<img src="img/catmilk.jpg" id="first">
 				</div>
 			</div>
-			<a class="prev" onclick="navi()"></a>
-  			<a class="next" onclick="navi()"></a>
+			<button id="btnprev">Prev</button>
+			<button id="btnnext">Next</button>
+  			<br>
+  			<div><!-- dot -->
+  				
+  			</div>
 
 		</div><!-- content -->
 
