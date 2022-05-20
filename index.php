@@ -17,7 +17,7 @@
 
 		<?php
 			include('header.html');
-		
+		?>
 
 		<div class="socialmedia">
 			<ul>
