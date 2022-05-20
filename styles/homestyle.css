@@ -50,12 +50,22 @@ ul li a
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 table tr td
 {
 	padding: 30px;
 	padding-right: 35px;
 }
 
+=======
+.menu , .searchbar button
+{
+	border: none;
+	height: 5px;
+}
+
+
+>>>>>>> parent of c358ccc (content 6)
 
 .wrapper
 {
@@ -70,16 +80,90 @@ table tr td
 	width: 	100%;
 }
 
+<<<<<<< HEAD
 .banner, .carousel
 {
 	display: table-row-group;
 }
+=======
+#menuitem a 
+{
+	text-decoration: none;
+	padding: 8px 16px;
+	margin-top: 	5px;
+	display: 	block	;
+}
+
+#menuitem a:hover
+{
+	background-color: #FF9B55;
+}
+
+
+.searchbar
+{
+	float: left;
+	/*padding-left: 20px;*/
+	width: 20%;
+}
+
+::placeholder { 
+  color: #D62900;
+  opacity: 1; 
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #D62900;
+}
+
+#searchbar
+{
+	border: solid	#A50062;
+	border-width: thin;	
+	border-radius: 3px;
+	height: 	23px;
+	background-color: 	#FF9B55;
+}
+
+.logo
+{
+	float: left;
+	/*padding-right: 20px;*/
+	width: 20%;
+	height: 100%;
+}
+
+.logo img
+{
+	width: 90%;
+}
+
+.topbar .logo img
+{
+	transform: translate(0px -30px);
+}
+
+.dashboard
+{
+	float: left;
+	width: 20%;
+}
+
+.gotocart
+{
+	float: right;
+	width: 20%;
+	position: relative;
+}
+
+
+
+>>>>>>> parent of c358ccc (content 6)
 
 
 .content .banner
 {
 	float: left;
-	margin-right: 20px;
 }
 
 .content .banner img
@@ -91,26 +175,14 @@ table tr td
 	border-color: #A50062;
 }
 
-.prodlink 
-{
-	margin-left: 40px;
-}
-
-.circle 
-{
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-}
-
 .carousel
 {
-	height: 200px;
+	height: 180px;
 	float: left;
+	position: relative;
 	border: solid;
 	border-width: thin;
 	color: 	#000000;
-	overflow: hidden;
 }
 
 .prod

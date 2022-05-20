@@ -11,7 +11,6 @@
 <body>
 
 	<div class="wrapper">
-		
 		<?php
 			include('header.html');
 		?>
@@ -22,13 +21,10 @@
 				<h2>Payment</h2><br>
 				<p>Choose Payment Method</p>
 
-				<!-- <button name="paycod" id="cod" >Cash on Delivery</button>
-				<button name="paycard" id="card" >Credit/Debit Card</button> -->
+				<button name="paycod" class="cod" >Cash on Delivery</button>
+				<button name="paycard" class="card" >Credit/Debit Card</button>
 
-				<input type="submit" name="paycod" id="cod" value="Cash On Delivery" onclick="callForm1()">
-				<input type="submit" name="paycard" id="card" value="Credit/Debit Card" onclick="callForm2()">
-
-				<form method="post" action=""  id="when" style="display: none;">
+				<form method="post" action=""  class="when" style="visibility: hidden;">
 					<label>What would be the most convinient time for you to recieve the package?</label>
 					<br>
 					<input type="radio" name="when" id="" value="Weekdays">
@@ -42,11 +38,10 @@
 					<label > Afternoon</label><br>
 					<input type="checkbox" id="eve" name="eve" value="Evening">
 					<label > Evening</label><br>
-					<!-- <button type="submit" name="subcod">Submit</button> -->
-					<input type="submit" name="subcod">
+					<button type="submit" name="subcod">Submit</button>
 				</form>
 
-				<form method="post" action="" id="paycard" style="display: none;">
+				<form method="post" action="" class="paycard" style="visibility:hidden;">
 					<label>Name On Card*</label>
 					<input type="text" name="cardname" placeholder="Eg:- Kavishki Perera" required><br>
 					<label>Card Number*</label>
@@ -57,21 +52,17 @@
 					<input type="text" name="cvc" placeholder="123" required><br>
 					<input type="checkbox" id="savepay" name="savepay" value="Save My Details">
 					<label >Save My Payment Details</label><br>
-					<!-- <button type="submit" name="btnsub">Pay</button>
-					<button type="reset" name="btnres">Clear</button> -->
-					<input type="submit" name="btnsub" value="Pay">
-					<input type="reset" name="btnres" value="Clear">
+					<button type="submit" name="btnsub">Pay</button>
+					<button type="reset" name="btnres">Clear</button>
 				</form>
 				
 			</fieldset>
 		</div>
 
 		<div class="footer">
-
 			<?php
 			include('footer.html');
 			?>
-
 		</div>
 
 	</div><!-- wrapper -->

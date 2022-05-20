@@ -35,11 +35,6 @@ button
 	width: 	100%;
 }
 
-./*payment
-{
-	display: table;
-}
-*/
 fieldset
 {
 	height: 600px;
@@ -48,8 +43,6 @@ fieldset
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	/*display: table-cell;*/
-	transform: translate(100px 50px);
 }
 
 button
