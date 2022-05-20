@@ -57,6 +57,12 @@ ul li a
 }
 
 
+table tr td
+{
+	padding: 30px;
+	padding-right: 35px;
+}
+
 
 .wrapper
 {
@@ -188,12 +194,16 @@ ul li a
 }
 
 
-
+.banner, .carousel
+{
+	display: table-row-group;
+}
 
 
 .content .banner
 {
 	float: left;
+	margin-right: 20px;
 }
 
 .content .banner img
@@ -205,14 +215,26 @@ ul li a
 	border-color: #A50062;
 }
 
+.prodlink 
+{
+	margin-left: 40px;
+}
+
+.circle 
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
 .carousel
 {
-	height: 180px;
+	height: 200px;
 	float: left;
-	position: relative;
 	border: solid;
 	border-width: thin;
 	color: 	#000000;
+	overflow: hidden;
 }
 
 .prod

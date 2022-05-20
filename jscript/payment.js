@@ -1,23 +1,30 @@
-function callForm() {
-  var formVisiblity1 = document.getElementsByClassName('when'); //cash on delivery
-  var formVisiblity2 = document.getElementsByClassName('paycard'); //card payments
+var form1=document.getElementById('when');
+var form2=document.getElementById('paycard');
 
-  if (document.getElementsByClassName('cod').clicked == true && formVisiblity1.style.visibility === 'hidden') {
-    formVisiblity1.style.visibility = 'visible';
-  } else if (document.getElementsByClassName('cod').clicked == true && formVisiblity1.style.visibility === 'visible') {
-    formVisiblity1.style.visibility = 'hidden';
-  } else if (document.getElementsByClassName('card').clicked == true && formVisiblity2.style.visibility === 'visible') {
-    formVisiblity2.style.visibility = 'visible';
-  } else if (document.getElementsByClassName('card').clicked == true && formVisiblity2.style.visibility === 'visible') {
-    formVisiblity2.style.visibility = 'hidden';
-  } else {
-    formVisiblity1.style.visibility = 'hidden';
-    formVisiblity1.style.visibility = 'hidden';
+var formVisibility1=form1.style.display;
+var formVisibility2=form2.style.display;
+
+var form1button=document.getElementById('cod');
+var form2button=document.getElementById('card');
+
+function callForm1() {
+  if (formVisibility1==='block') 
+  {
+    formVisibility1='none';
   }
-
+  else 
+  {
+    formVisibility1='block';
+  }
 }
 
-document.addEventListener('DOMContentLoaded', function(){
-  document.querySelector('.cod').onclick=callForm;
-  document.querySelector('.card').onclick=callForm;
-});
+function callForm2() {
+  if (formVisibility2==='block') 
+  {
+    formVisibility2='none';
+  }
+  else
+  {
+    formVisibility2='block';
+  }
+}
