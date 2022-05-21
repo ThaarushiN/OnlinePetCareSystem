@@ -56,16 +56,26 @@ ul li a
 	height: 5px;
 }
 
-
-table tr td
+table
 {
-	padding: 30px;
-	padding-right: 35px;
+	width: 300px;
+}
+
+table	tr td	
+{
+	padding: 15px;
 }
 
 table tr td a
 {
 	text-decoration: none;
+}
+
+button
+{
+	border: none;
+	height: 10px;
+	background-color: transparent;
 }
 
 /*table tr td a:hover
@@ -265,7 +275,7 @@ table tr td a
 	color: 	#000000;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	/*overflow: hidden;*/
+	overflow: hidden;
 	
 }
 
@@ -336,17 +346,6 @@ table tr td a
 	display: block;
 	text-decoration: none;
 }
-/*.contact
-{
-	height: 40%;
-	float: left;
-	border-style: solid;
-	border-width: thin;
-	border-radius: 8px;
-}
-.footerlink .logo, .contact
-{
-}*/
 
 .service
 {

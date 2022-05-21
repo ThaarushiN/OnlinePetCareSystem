@@ -18,9 +18,9 @@
 			<div class=login>
 				<fieldset style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(img/foxiee.jpg);">	
 						<h2>Sign In</h2><br>
-						<form method="post" onclick="" action="">
+						<form method="post" onclick="" action="php/signinCon.php">
 
-							<label id="label">Name</label><br>
+							<label id="label">Username</label><br>
 							<input type="text" name="usern" placeholder="Input Username">
 							<br>
 
@@ -28,7 +28,7 @@
 							<input type="Password" name="passw" placeholder="Input Password">
 							<br>	
 
-							<button type="submit	" class="signbtn">Sign In</button>
+							<button type="submit" class="signbtn" name="signbtn">Sign In</button>
 							<button type="	reset" class="signbtn">Clear All</button>
 							<br><p>Forgot your password? Don't worry you can reset it<a href="#" class="changepw"> here!</a>
 							</p>
