@@ -1,16 +1,19 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db_name="OnlinePetCareSystem";
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $db_name);
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $db_name="OnlinePetCareSystem";
 
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connected successfully";
+
+  $conn = mysqli_connect($servername, $username, $password, $db_name);
+
+  if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+  }
+
+  //coded by IT21174230 
+
 ?>
+
 

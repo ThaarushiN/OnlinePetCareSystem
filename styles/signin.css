@@ -79,10 +79,12 @@ input[type=text], input[type=password]
 .signbtn
 {
 	height: 30px;
-	margin-left: 30px;
+	/*margin-left: 15px;*/
 	padding-left: 5px;
 	padding-right: 5px;
 	margin-bottom: 10px;
 	border-radius: 5px;
 	border: none;
 }
+
+/*coded by IT21174230*/

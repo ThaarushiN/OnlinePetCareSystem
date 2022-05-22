@@ -1,30 +1,29 @@
 var form1=document.getElementById('when');
 var form2=document.getElementById('paycard');
 
-var formVisibility1=form1.style.display;
-var formVisibility2=form2.style.display;
-
-var form1button=document.getElementById('cod');
-var form2button=document.getElementById('card');
-
 function callForm1() {
-  if (formVisibility1==='block') 
+  if (form1.style.display==='block') 
   {
-    formVisibility1='none';
+    form1.style.display='none';
   }
   else 
   {
-    formVisibility1='block';
+    form1.style.display='block';
+    form2.style.display='none';
   }
 }
 
 function callForm2() {
-  if (formVisibility2==='block') 
+  if (form2.style.display==='block') 
   {
-    formVisibility2='none';
+    form2.style.display='none';
   }
   else
   {
-    formVisibility2='block';
+    form2.style.display='block';
+    form1.style.display='none';
   }
 }
+
+//coded by IT21174230
+

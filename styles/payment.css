@@ -35,6 +35,12 @@ button
 	width: 	100%;
 }
 
+.payment
+{
+	transform: translate(300px);
+	margin-top: 40px;
+}
+
 fieldset
 {
 	height: 600px;
@@ -43,13 +49,26 @@ fieldset
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	border: solid;
+	border-color: ;
+	border-radius: 10px;
 }
 
-button
+input
 {
-	height: 10px;
-	padding: 3px;
-	background-color: #FFFFFF;
+	padding: 6px;
+	margin: 5px;
 	border-radius: 5px;
+	border: none;
 }
 
+#when, #paycard
+{
+	margin-top: 10px;
+	border: solid;
+	width: 90%;
+	height: 300px;
+	transform: translate(30px);
+	padding: 30px;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}

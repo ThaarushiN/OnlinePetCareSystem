@@ -10,7 +10,7 @@ const size=carouselImage[0].clientWidth;
 carouselContainer.style.transform= 'translateX('+(-size*counter)+ 'px)';
 
 nextButton.addEventListener('click,()=>'{
-	/*if(counter<=0) {return};*/
+	if(counter<= carouselImage.length-1) {return};
 	carouselImage.style.transition="transform 0.4s ease-in-out";
 	counter++;
 	carouselContainer.style.transform= 'translateX('+(-size*counter)+ 'px)';
@@ -37,3 +37,5 @@ carouselImage.addEventListener('transitionend',()=>{
 		carouselContainer.style.transform= 'translateX('+(-size*counter)+ 'px)';
 	}
 });
+
+//coded by IT21174230

@@ -85,8 +85,10 @@
 
 			<div class="carousel">
 				<h3>All Time Favourites!!</h3>
-				<i class="fa-angles-left" id="btnprev">
-				<i class="fa-angles-right" id="btnnext">
+				<!-- <button id="btnprev"><i class="fa-solid fa-angles-left"></i></button>
+				<button id="btnnext"><i class="fa-solid fa-angles-right"></i></button>
+				<i class="fa-solid fa-angles-left" id="btnprev">
+				<i class="fa-solid fa-angles-right" id="btnnext"> -->
 				<div class="prod">
 					<img src="img/5.jpg" id="last">
 					<img src="img/1.jpg">
@@ -106,10 +108,35 @@
 
 
 		<div class="footerlink" >
-			<?php
-				include('footer.html');
-			?>
-			
+			<div class="logo">
+				<!-- <video autoplay>
+  				<source src="img/pawsies2.mp4" type="video/mp4"> 
+				Your browser does not support the video tag.
+				</video><br> -->
+				<img src="img/pawsies2.gif">
+				<a href="mailto:pawsies@pawsies.lk">pawsies@pawsies.lk</a>
+				<a href="tel:075-77774441">075-77774441</a>
+			</div>
+
+			<div class="service">
+				<h3>We provide you...</h3><br>
+				<ul>
+					<li>Vet appointment booking</li><br>	
+					<li>Booking the best pet sitters</li><br>	
+					<li>A wide range of pet products</li><br>	
+				</ul>
+			</div>
+
+			<nav class="quicklink">
+				<ul>
+					<li id="left"><a href="#">Home</a></li>
+					<li id="left"><a href="#">Sign Up</a></li>
+					<li id="left"><a href="#">Shop</a></li>
+					<li id="right"><a href="#">About Us</a></li>
+					<li id="right"><a href="#">Blog</a></li><
+					<li id="right"><a href="#">Feedback</a></li>
+				</ul>
+			</nav>
 		</div><!-- footerlink -->
 		
 
